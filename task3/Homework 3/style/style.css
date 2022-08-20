@@ -1,0 +1,343 @@
+.header{
+    position: absolute;
+    width: 411px;
+    height: 65px;
+    left: 514px;
+    top: 18px;
+    text-align: center;
+    color: #0BBBD3;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 135.02%;
+}
+.color-text{
+    color: black;
+}
+.cathedral{
+    position: absolute;
+    width: 1440px;
+    height: 852px;
+    left: 0px;
+    top: 123px;
+}
+.blue{
+    position: absolute;
+    width: 24px;
+    height: 191px;
+    left: 80px;
+    top: 321px;
+    background: #33B8F1;
+}
+.yellow{
+    position: absolute;
+    width: 24px;
+    height: 197px;
+    left: 80px;
+    top: 512px;
+    background: #E8F82F;
+}
+.ukraine{
+    position: absolute;
+    width: 715px;
+    height: 321px;
+    left: 163px;
+    top: 351px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 167.02%;
+    color: #FFFFFF;
+}
+.places{
+    position: absolute;
+    width: 361px;
+    height: 64px;
+    left: 76px;
+    top: 1015px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 167.02%;
+    color: #000000;
+}
+.under-places{
+    position: absolute;
+    width: 361px;
+    height: 5px;
+    left: 80px;
+    top: 1095px;
+    background: #33B8F1;
+}
+.card-garden{
+    position: absolute;
+    width: 399px;
+    height: 481px;
+    left: 80px;
+    top: 1221px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.name-garden{
+    position: absolute;
+    width: 267px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 167.02%;
+    color: #33B8F1;
+}
+.about-garden{
+    position: absolute;
+    width: 396px;
+    height: 149px;
+    top: 310px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 167.02%;
+    color: #595050;
+}
+.cursor{
+    position: absolute;
+    width: 64px;
+    height: 68px;
+    left: 240px;
+    top: 290px;
+    border-radius: 20px;
+}
+.card-boulevard{
+    position: absolute;
+    width: 399px;
+    height: 481px;
+    left: 518px;
+    top: 1221px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.name-boulevard{
+    position: absolute;
+    width: 404px;
+    height: 60px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 167.02%;
+    color: #030303;
+}
+.about-boulevard{
+    position: absolute;
+    width: 396px;
+    height: 55px;
+    top: 346px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 167.02%;
+    color: #595050;
+}
+.card-seafront{
+    position: absolute;
+    width: 408px;
+    height: 481px;
+    left: 952px;
+    top: 1221px;
+    background: #FFFEFE;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+.name-seafront{
+    position: absolute;
+    width: 408px;
+    height: 59px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 165.02%;
+    color: #040505;
+}
+.about-seafront{
+    position: absolute;
+    width: 396px;
+    height: 73px;
+    top: 347px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 167.02%;
+    color: #595050;
+}
+.name{
+    position: absolute;
+    width: 473px;
+    height: 64px;
+    left: 464px;
+    top: 1761px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 167.02%;
+    color: #000000;
+}
+.line{
+    position: absolute;
+    width: 361px;
+    height: 5px;
+    left: 520px;
+    top: 1841px;
+    background: #33B8F1;
+}
+.heart{
+    position: absolute;
+    width: 973px;
+    height: 877px;
+    left: 233px;
+    top: 1888px;
+}
+.botton{
+    position: absolute;
+    width: 430px;
+    height: 74px;
+    left: 505px;
+    top: 2711px;
+    background: #33ADF1;
+}
+.botton-text{
+    position: absolute;
+    width: 330px;
+    height: 80px;
+    left: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 167.02%;
+    color: #FFFFFF;
+}
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 405px;
+    left: 0px;
+    top: 2967px;
+    background: #0A2DA9;
+}
+.footer-name{
+    position: absolute;
+    width: 548px;
+    height: 86px;
+    left: 446px;
+    top: 49px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 135.02%;
+    color: #0BBBD3;
+}
+.color-footer{
+    color: white;
+}
+.email{
+    position: absolute;
+    width: 286px;
+    height: 43px;
+    left: 577px;
+    top: 160px;
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 135.02%;
+    color: #353949;
+}
+.tel{
+    position: absolute;
+    width: 307px;
+    height: 43px;
+    left: 567px;
+    top: 238px;
+    font-family: 'Inder';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 135.02%;
+    color: #353949;
+}
+.twitter-label{
+    position: absolute;
+    width: 68px;
+    height: 64px;
+    left: 476px;
+    top: 323px;
+    background: #0931BF;
+    border-radius: 60px;
+}
+.twitter{
+    position: absolute;
+    width: 41px;
+    height: 37px;
+    left: 14px;
+    top: 13px;
+}
+.telegram-label{
+    position: absolute;
+    width: 68px;
+    height: 64px;
+    left: 599px;
+    top: 323px;
+    background: #0931BF;
+    border-radius: 60px;
+}
+.telegram{
+    position: absolute;
+    width: 52px;
+    height: 47px;
+    left: 6px;
+    top: 8px;
+}
+.instagram-label{
+    position: absolute;
+    width: 68px;
+    height: 64px;
+    left: 721px;
+    top: 323px;
+    background: #0931BF;
+    border-radius: 60px;
+}
+.instagram{
+    position: absolute;
+    width: 47px;
+    height: 48px;
+    left: 10px;
+    top: 8px;
+}
+.facebook-label{
+    position: absolute;
+    width: 68px;
+    height: 64px;
+    left: 853px;
+    top: 323px;
+    background: #0931BF;
+    border-radius: 60px;
+}
+.facebook{
+    position: absolute;
+    width: 45px;
+    height: 43px;
+    left: 11px;
+    top: 13px;
+}
