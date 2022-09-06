@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 6</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body class="main">
+    <form>
+    <div class="name">Intake Main Flow</div>
+    <div class="field"><span class="color-field">*</span> Mandatory field</div>
+    <div class="information">Information</div>
+    <div class="information-field">
+        <div>
+            <div class="intake-type">Intake Type <span class="select-color">* (select)</span></div>
+            <select class="referral" id="referral">
+                <option value="referral">Referral</option>
+                <option value="referral">Unreferral</option>
+            </select> 
+        </div>
+        <div>
+            <div class="enrollment-initiation">Enrollment Initiation Date jquery</div>
+            <select class="date" id="date " disabled>
+                <option value="date">05/11/2021</option>
+            </select>
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="phone">phone</div>
+            <input class="phone-area" type="tel">
+        </div>
+        <div>
+            <div class="application-category">Application Category<span class="color-category">*</span></div>
+            <select class="choose-application" id="choose-application">
+                <option value="choose-application">Child Support</option>
+                <option value="choose-application">Mother Support</option>
+                <option value="choose-application">Father Support</option>
+            </select>
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="email">email</div>
+            <input class="email-area" type="email">
+        </div>
+        <div>
+            <div class="enrollment-submission">Enrollment Submission Date<span class="optional">(Optional)</span></div>
+            <select class="submission-date" id="date " disabled>
+                <option value="date">05/11/2021</option>
+            </select>
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="application-registration">Application Registration <span class="optional">(Optional)</span></div>
+            <select class="application-number" id="application-number">
+                <option value="app-number">APP0000116</option>
+                <option value="app-number">BBR3470314</option>
+            </select> 
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="additional-info">Additional Information Requested Date (Optional)</div>
+            <select class="additional-date" id="additional-date">
+                <option value="date">05-13-2021</option>
+            </select>
+        </div>
+        <div>
+            <input class="checkbox-purged" type="checkbox" id="happy">
+            <label for="happy" class="text-purged">Purged</label>
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="remaining-days">Remaining Days Before Referral is Purged<span class="optional">(Optional)</span></div>
+            <input class="remaining-number" type="text" value="13">
+        </div>
+        <div>
+            <div class="exempt-paternity">Exempt from Paternity <span class="optional">(Optional) (select)</span></div>
+            <select class="exempt-select" id="exempt-select">
+                <option value="exempt-select">No</option>
+                <option value="exempt-select">Yes</option>
+            </select> 
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="fee-payment">Fee Payment Date<span class="optional">(Optional)</span></div>
+            <select class="fee-payment-date" id="fee-payment-date">
+                <option value="date">05-13-2021</option>
+            </select>
+        </div>
+        <div>
+            <div class="enrollment-status">Enrollment Status<span class="optional">(Optional)</span></div>
+            <select class="choose-enrollment" id="exempt-select">
+                <option value="choose-emrollment">Worklisted</option>
+                <option value="choose-enrollment">Homelisted</option>
+            </select>
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <input class="checkbox-application" type="checkbox" id="sad">
+            <label for="sad" class="text-application">Application Fee Processed</label>
+        </div>
+    </div>
+    <div class="first-line"></div>
+    <div class="maternity">Maternity Information</div>
+    <div class="information-field">
+        <div>
+            <input class="requesting-child" type="checkbox" id="crazy">
+            <label for="crazy" class="text-requesting">Are you requesting child support services for an<br>
+                unborn child?</label>
+        </div>
+        <div>
+            <div class="biological">Other known biological parent?<span class="optional">(Optional)</span></div>
+            <select class="biological-select" id="biological-select">
+                <option value="biological-select">None</option>
+                <option value="biological-select">One</option>
+                <option value="biological-select">Two</option>
+            </select> 
+        </div>
+    </div>
+    <div class="second-line"></div>
+    <div class="official-use">Official Use</div>
+    <div class="information-field">
+        <div>
+            <div class="case-category">Case Category<span class="optional">(select)</span></div>
+            <select class="select-case" id="select-case">
+                <option value="select-case">Active IV-A</option>
+                <option value="select-case">Active I-B</option>
+            </select> 
+        </div>
+        <div>
+            <div class="indicator">IV-D Indicator<span class="select-color">*</span></div>
+            <select class="select-indicator" id="select-indicator">
+                <option value="select-indicator">Non-IV-D</option>
+                <option value="select-indicator">Non-V-A</option>
+            </select> 
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="arrears-only">Arrears Only Indicator<span class="optional">(Optional)</span></div>
+            <select class="select-arrears" id="select-arrears">
+                <option value="select-case">None</option>
+            </select> 
+        </div>
+        <div>
+            <div class="intergovernmental">Intergovernmental Case Category<span class="optional">(Optional)</span></div>
+            <select class="select-intergovernmental" id="select-intergovernmental">
+                <option value="select-intergovernmental">None</option>
+            </select> 
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="information-field">
+        <div>
+            <div class="arrears-only">Assigned County of Ownership<span class="optional">(Optional)</span></div>
+            <select class="select-arrears" id="select-arrears">
+                <option value="select-case">None</option>
+            </select> 
+        </div>
+        <div>
+            <div class="intergovernmental">Intergovernmental Case Type<span class="optional">(Optional)</span></div>
+            <select class="select-intergovernmental" id="select-intergovernmental">
+                <option value="select-intergovernmental">None</option>
+            </select> 
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="case-status">Intergovermental Case Status<span class="optional">(details)</span></div>
+            <select class="select-case-status" id="select-case-status">
+                <option value="select-case-status">None</option>
+            </select> 
+        </div>
+        <div>
+            <div class="case-number">Case Number</div>
+            <select class="search-case-number" id="search-case-number">
+                <option value="search-case-number">Search Case Number</option>
+            </select> 
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="information-field">
+        <div>
+            <div class="case-status">Intergovermental Case Status<span class="optional">(details)</span></div>
+            <select class="select-case-status" id="select-case-status">
+                <option value="select-case-status">None</option>
+            </select> 
+        </div>
+        <div>
+            <div class="case-number">Case Number</div>
+            <select class="search-case-number" id="search-case-number">
+                <option value="search-case-number">Search Case Number</option>
+            </select> 
+        </div>
+    </div>
+    <div class="information-field">
+        <div>
+            <div class="special-handling">Special Handling Indicator for Other Parent<br>
+                (Optional)<span class="optional">(details)</span></div>
+            <select class="select-special-handling" id="select-special-handling">
+                <option value="select-special-handling">None</option>
+            </select> 
+        </div>
+    </div>    
+        <div class="third-line"></div>
+        <div class="system-information">System Information</div>
+        <div class="information-field">
+            <div>
+                <div class="taken-user">Enrollment Taken by User </div>
+                <select class="search-input" id="search-input">
+                    <option value="search-input">Search Input</option>
+                </select> 
+            </div>
+            <div>
+                <div class="supervisor">Intake Supervisor<span class="optional">(Optional)</span></div>
+                <select class="search-supervisor" id="search-supervisor">
+                    <option value="search-supervisor">Search</option>
+                </select> 
+            </div>
+        </div> 
+        <br>
+        <br>
+        <div class="information-field">
+            <div>
+                <div class="taken-user">Worker<span class="optional">(Optional)</div>
+                <select class="search-input" id="search-input">
+                    <option value="search-input">Search Input</option>
+                </select> 
+            </div>
+            <div>
+                <div class="supervisor">Owner<span class="optional">(Optional)</span></div>
+                <select class="owner-banal" id="owner-banal">
+                    <option value="owner-banal">Rajaneesh Banal</option>
+                </select> 
+            </div>
+        </div>
+        <div class="fourth-line"></div>    
+    </form>
+    <button class="next-button">Next</button>
+</body>
+</html>
